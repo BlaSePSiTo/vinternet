@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Feliz cumple Vint</title>
+</head>
+
+<body>
+
+    <div id="loader">
+        <p>Haga click para activar la música.</p>
+        <button id="music-on">Activar</button>
+    </div>
+
+    <div class="container">
+        <div class="card-container" id="story">
+            <div class="card" id="polaroid1" class="show" data-audio="mentalidad-televisiva">
+                <div class="image">
+                    <div class="img-container">
+                        <img src="imgs/la-voz-de-los-80.jpg" class="album" alt="La Voz de los 80">
+                        <img src="imgs/vinilo.png" alt="Vinilo" class="vinil">
+                    </div>
+                </div>
+                <div class="card-content">
+                    <h2>La Voz de los 80</h2>
+                    <p>La Voz de los 80 es el primer álbum de estudio lanzado por Los Prisioneros en 1984. Es uno de los
+                        álbumes más icónicos del rock en español, con canciones como "La voz de los 80" y "Sexo". El
+                        álbum aborda temas sociales y políticos de la época y marcó un hito en la
+                        música
+                        chilena.</p>
+                    <audio src="audio/mentalidad-televisiva.mp3" id="mentalidad-televisiva"></audio>
+                </div>
+            </div>
+            <!-- Agrega más cards para otros álbumes de Los Prisioneros aquí -->
+            <div class="card" id="polaroid2" data-audio="industrias">
+                <div class="image">
+                    <div class="img-container">
+                        <img src="imgs/pateando-piedras.jpg" class="album" alt="La Voz de los 80">
+                        <img src="imgs/vinilo.png" alt="Vinilo" class="vinil">
+                    </div>
+                </div>
+                <div class="card-content">
+                    <h2>Pateando Piedras</h2>
+                    <p>Pateando Piedras es el segundo álbum de estudio de Los Prisioneros, lanzado en 1986. Este álbum
+                        incluye éxitos como "Por qúe no se van", "El Baile de los que Sobran" y "Por qué los Ricos". El
+                        disco
+                        fue
+                        fundamental en la carrera de la banda y consolidó su posición como una de las bandas más
+                        influyentes
+                        del rock en español.</p>
+                    <audio src="audio/industrias.mp3" id="industrias"></audio>
+                </div>
+            </div>
+            <div class="card" id="polaroid3" data-audio="amiga-mia">
+                <div class="image">
+                    <div class="img-container">
+                        <img src="imgs/corazones.jpg" class="album" alt="La Voz de los 80">
+                        <img src="imgs/vinilo.png" alt="Vinilo" class="vinil">
+                    </div>
+                </div>
+                <div class="card-content">
+                    <h2>Corazones</h2>
+                    <p>Corazones es el quinto álbum de estudio de Los Prisioneros, lanzado en 1990. Este álbum es
+                        conocido
+                        por su cambio hacia un estilo más melódico y lírico, alejándose del punk rock de sus primeros
+                        trabajos. Contiene canciones como "Tren al Sur", "Corazones Rojos" y "Estrechez de Corazón".</p>
+                    <audio src="audio/amiga-mia.mp3" id="amiga-mia"></audio>
+                </div>
+            </div>
+            <div class="card" id="polaroid4" data-audio="cultura-de-la-basura">
+                <div class="image">
+                    <div class="img-container">
+                        <img src="imgs/cultura-de-la-basura.jpg" class="album" alt="Cultura de la Basura">
+                        <img src="imgs/vinilo.png" alt="Vinilo" class="vinil">
+                    </div>
+                </div>
+                <div class="card-content">
+                    <h2>Cultura de la Basura</h2>
+                    <p>"Cultura de la Basura" es el tercer álbum de estudio de Los Prisioneros, lanzado en 1987. Este
+                        álbum
+                        continúa la crítica social y política de la banda, abordando temas como la alienación, el
+                        consumismo y
+                        la sociedad de consumo. Contiene canciones emblemáticas como "Pa Pa Pa" y
+                        "We Are Sudamerican Rockers".</p>
+                    <audio src="audio/we-are-sudamerican-rockers.mp3" id="cultura-de-la-basura"></audio>
+                </div>
+            </div>
+            <div class="card" id="polaroid5" data-audio="ni-por-la-razon">
+                <div class="image">
+                    <div class="img-container">
+                        <img src="imgs/ni-por-la-razon-ni-por-la-fuerza.png" class="album"
+                            alt="Ni por la Razón, ni por la Fuerza">
+                        <img src="imgs/vinilo.png" alt="Vinilo" class="vinil">
+                    </div>
+                </div>
+                <div class="card-content">
+                    <h2>Ni por la Razón, ni por la Fuerza</h2>
+                    <p>"Ni por la Razón, ni por la Fuerza" es el cuarto álbum de estudio de Los Prisioneros, lanzado en
+                        1986.
+                        Este álbum consolidó la posición de la banda como una de las más importantes del rock en
+                        español. Sus
+                        canciones reflejan la crítica social y política característica de Los Prisioneros, con temas
+                        como la
+                        dictadura y la represión. (Quieren Dinero es del album Pateando Piedras, pero este album
+                        recopiló varias canciones, una de ellas esta.)</p>
+                    <audio src="audio/quieren-dinero.mp3" id="ni-por-la-razon"></audio>
+                </div>
+            </div>
+
+            <div class="card" id="polaroid6" data-audio="los-prisioneros">
+                <div class="image">
+                    <div class="img-container">
+                        <img src="imgs/los-prisioneros.jpg" class="album" alt="Los Prisioneros">
+                        <img src="imgs/vinilo.png" alt="Vinilo" class="vinil">
+                    </div>
+                </div>
+                <div class="card-content">
+                    <h2>Los Prisioneros</h2>
+                    <p>"Los Prisioneros" es el álbum debut homónimo de la banda chilena Los Prisioneros, lanzado en
+                        2003. Este álbum salió después del "reencuentro" de Los Prisioneros, no obstante este no tuvo la
+                        aprobación del guitarrista Claudio Narea, contiene canciones como "Concepción" o "San Miguel".</p>
+                    <audio src="audio/ultraderecha.mp3" id="los-prisioneros"></audio>
+                </div>
+            </div>
+            <div class="card" id="polaroid6" data-audio="manzana">
+                <div class="image">
+                    <div class="img-container">
+                        <img src="imgs/manzana.jpg" class="album" alt="Los Prisioneros">
+                        <img src="imgs/vinilo.png" alt="Vinilo" class="vinil">
+                    </div>
+                </div>
+                <div class="card-content">
+                    <h2>Los Prisioneros</h2>
+                    <p>ZzZZzZz</p>
+                    <audio src="audio/zzz.mp3" id="manzana"></audio>
+                </div>
+            </div>
+            <div class="card" id="happy">
+                <h1>Feliz cumpleaños Vint!!11!!!1</h1>
+                <br><br>
+                <p>Le regalo además, una key con 50k bloodpoints para el DBD: <br> <i id="key">9be44921-e7d3-45f1-8eac-58f7a2a1dc52</i></p>
+
+                <style>
+                    #happy {
+                        color: #fff;
+                    }
+                </style>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+    <script src="scripts.js"></script>
+
+    <script>
+        $("#music-on").click(function () {
+            $('#loader').fadeOut();
+            $('body').addClass('loaded');
+        })
+    </script>
+</body>
+
+</html>
